@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Testing Rails Applications — Ruby on Rails Guides</title>
+  <title>測試 Rails 應用程式 — Ruby on Rails Guides</title>
   <link rel="stylesheet" type="text/css" href="stylesheets/style.css" data-turbolinks-track="reload">
   <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
   <link rel="stylesheet" type="text/css" href="stylesheets/syntaxhighlighter/shCore.css" data-turbolinks-track="reload">
@@ -14,9 +14,9 @@
   <script src="javascripts/turbolinks.js" data-turbolinks-track="reload"></script>
   <script src="javascripts/guides.js" data-turbolinks-track="reload"></script>
   <script src="javascripts/responsive-tables.js" data-turbolinks-track="reload"></script>
-  <meta property="og:title" content="Testing Rails Applications — Ruby on Rails Guides" />
-  <meta name="description" content="Testing Rails ApplicationsThis guide covers built-in mechanisms in Rails for testing your application.After reading this guide, you will know: Rails testing terminology. How to write unit, functional, integration, and system tests for your application. Other popular testing approaches and plugins." />
-  <meta property="og:description" content="Testing Rails ApplicationsThis guide covers built-in mechanisms in Rails for testing your application.After reading this guide, you will know: Rails testing terminology. How to write unit, functional, integration, and system tests for your application. Other popular testing approaches and plugins." />
+  <meta property="og:title" content="測試 Rails 應用程式 — Ruby on Rails Guides" />
+  <meta name="description" content="請勿在 GITHUB 上讀取此文件，請在 https://guides.rubyonrails.org 上發布指南。測試 Rails 應用程式本教學包含了 Rails 中內建的測試機制。閱讀本教學後，您將學會： Rails測試術語。 如何為您的應用程式撰寫單元、功能、整合和系統測試。 其他流行的測試方法和擴充功能。" />
+  <meta property="og:description" content="請勿在 GITHUB 上讀取此文件，請在 https://guides.rubyonrails.org 上發布指南。測試 Rails 應用程式本教學包含了 Rails 中內建的測試機制。閱讀本教學後，您將學會： Rails測試術語。 如何為您的應用程式撰寫單元、功能、整合和系統測試。 其他流行的測試方法和擴充功能。" />
   <meta property="og:locale" content="en_US" />
   <meta property="og:site_name" content="Ruby on Rails Guides" />
   <meta property="og:image" content="https://avatars.githubusercontent.com/u/4223" />
@@ -25,16 +25,16 @@
 <body class="guide">
   <div id="topNav">
     <div class="wrapper">
-      <strong class="more-info-label">More at <a href="https://rubyonrails.org/">rubyonrails.org:</a> </strong>
+      <strong class="more-info-label">更多內容 <a href="https://rubyonrails.org/">rubyonrails.org:</a> </strong>
       <span class="red-button more-info-button">
-        More Ruby on Rails
+        更多內容 Ruby on Rails
       </span>
       <ul class="more-info-links s-hidden">
         <li class="more-info"><a href="https://weblog.rubyonrails.org/">Blog</a></li>
-        <li class="more-info"><a href="https://guides.rubyonrails.org/">Guides</a></li>
+        <li class="more-info"><a href="https://guides.rubyonrails.org/">指南</a></li>
         <li class="more-info"><a href="https://api.rubyonrails.org/">API</a></li>
-        <li class="more-info"><a href="https://stackoverflow.com/questions/tagged/ruby-on-rails">Ask for help</a></li>
-        <li class="more-info"><a href="https://github.com/rails/rails">Contribute on GitHub</a></li>
+        <li class="more-info"><a href="https://stackoverflow.com/questions/tagged/ruby-on-rails">尋求協助</a></li>
+        <li class="more-info"><a href="https://github.com/rails/rails">貢獻</a></li>
       </ul>
     </div>
   </div>
@@ -42,18 +42,18 @@
     <div class="wrapper clearfix">
       <h1><a href="index.html" title="Return to home page">Guides.rubyonrails.org</a></h1>
       <ul class="nav">
-        <li><a class="nav-item" href="index.html">Home</a></li>
+        <li><a class="nav-item" href="index.html">首頁</a></li>
         <li class="guides-index guides-index-large">
-          <a href="index.html" id="guidesMenu" class="guides-index-item nav-item">Guides Index</a>
+          <a href="index.html" id="guidesMenu" class="guides-index-item nav-item">指南目錄</a>
           <div id="guides" class="clearfix" style="display: none;">
             <hr />
             <div class="guides-section-container">
                 <div class="guides-section">
-                  <dt>起步走</dt>
+                  <dt>入門</dt>
                   <dd><a href="getting_started.html">Rails 入門</a></dd>
                 </div>
                 <div class="guides-section">
-                  <dt>Models</dt>
+                  <dt>模型 (Models)</dt>
                   <dd><a href="active_record_basics.html">Active Record 基礎 (Basics)</a></dd>
                   <dd><a href="active_record_migrations.html">Active Record 遷移 (Migrations)</a></dd>
                   <dd><a href="active_record_validations.html">Active Record 驗證 (Validations)</a></dd>
@@ -62,12 +62,12 @@
                   <dd><a href="active_record_querying.html">Active Record 查詢 (Query Interface)</a></dd>
                 </div>
                 <div class="guides-section">
-                  <dt>Views</dt>
+                  <dt>視圖 (Views)</dt>
                   <dd><a href="layouts_and_rendering.html">Layouts and Rendering in Rails</a></dd>
                   <dd><a href="form_helpers.html">Action View Form Helpers</a></dd>
                 </div>
                 <div class="guides-section">
-                  <dt>Controllers</dt>
+                  <dt>控制器 (Controllers)</dt>
                   <dd><a href="action_controller_overview.html">Action Controller 概述</a></dd>
                   <dd><a href="routing.html">Rails 路由：深入淺出</a></dd>
                 </div>
@@ -110,7 +110,7 @@
                   <dd><a href="maintenance_policy.html">Maintenance Policy</a></dd>
                 </div>
                 <div class="guides-section">
-                  <dt>Release Notes</dt>
+                  <dt>版本紀錄</dt>
                   <dd><a href="upgrading_ruby_on_rails.html">Upgrading Ruby on Rails</a></dd>
                   <dd><a href="6_0_release_notes.html">Version 6.0 - August 2019</a></dd>
                   <dd><a href="5_2_release_notes.html">Version 5.2 - April 2018</a></dd>
@@ -128,14 +128,14 @@
             </div>
           </div>
         </li>
-        <li><a class="nav-item" href="contributing_to_ruby_on_rails.html">Contribute</a></li>
+        <li><a class="nav-item" href="contributing_to_ruby_on_rails.html">貢獻</a></li>
         <li class="guides-index guides-index-small">
           <select class="guides-index-item nav-item">
-            <option value="index.html">Guides Index</option>
-              <optgroup label="起步走">
+            <option value="index.html">指南目錄</option>
+              <optgroup label="入門">
                   <option value="getting_started.html">Rails 入門</option>
               </optgroup>
-              <optgroup label="Models">
+              <optgroup label="模型 (Models)">
                   <option value="active_record_basics.html">Active Record 基礎 (Basics)</option>
                   <option value="active_record_migrations.html">Active Record 遷移 (Migrations)</option>
                   <option value="active_record_validations.html">Active Record 驗證 (Validations)</option>
@@ -143,11 +143,11 @@
                   <option value="association_basics.html">Active Record 關聯 (Associations)</option>
                   <option value="active_record_querying.html">Active Record 查詢 (Query Interface)</option>
               </optgroup>
-              <optgroup label="Views">
+              <optgroup label="視圖 (Views)">
                   <option value="layouts_and_rendering.html">Layouts and Rendering in Rails</option>
                   <option value="form_helpers.html">Action View Form Helpers</option>
               </optgroup>
-              <optgroup label="Controllers">
+              <optgroup label="控制器 (Controllers)">
                   <option value="action_controller_overview.html">Action Controller 概述</option>
                   <option value="routing.html">Rails 路由：深入淺出</option>
               </optgroup>
@@ -184,7 +184,7 @@
               <optgroup label="Policies">
                   <option value="maintenance_policy.html">Maintenance Policy</option>
               </optgroup>
-              <optgroup label="Release Notes">
+              <optgroup label="版本紀錄">
                   <option value="upgrading_ruby_on_rails.html">Upgrading Ruby on Rails</option>
                   <option value="6_0_release_notes.html">Version 6.0 - August 2019</option>
                   <option value="5_2_release_notes.html">Version 5.2 - April 2018</option>
@@ -208,20 +208,20 @@
 
   <div id="feature">
     <div class="wrapper">
-      <h2>Testing Rails Applications</h2><p>This guide covers built-in mechanisms in Rails for testing your application.</p><p>After reading this guide, you will know:</p>
+      <p><strong>請勿在 GITHUB 上讀取此文件，請在 <a href="https://guides.rubyonrails.org">https://guides.rubyonrails.org</a> 上發布指南。</strong></p><h2>測試 Rails 應用程式</h2><p>本教學包含了 Rails 中內建的測試機制。</p><p>閱讀本教學後，您將學會：</p>
 <ul>
-<li>Rails testing terminology.</li>
-<li>How to write unit, functional, integration, and system tests for your application.</li>
-<li>Other popular testing approaches and plugins.</li>
+<li>Rails測試術語。</li>
+<li>如何為您的應用程式撰寫單元、功能、整合和系統測試。</li>
+<li>其他流行的測試方法和擴充功能。</li>
 </ul>
 
 
                 <div id="subCol">
             <h3 class="chapter"><img src="images/chapters_icon.gif" alt="" />Chapters</h3>
             <ol class="chapters">
-<li><a href="#why-write-tests-for-your-rails-applications-questionmark">Why Write Tests for your Rails Applications?</a></li>
+<li><a href="#%E7%82%BA%E4%BB%80%E9%BA%BC%E8%A6%81%E7%82%BA-rails-%E6%87%89%E7%94%A8%E7%A8%8B%E5%BC%8F%E7%B7%A8%E5%AF%AB%E6%B8%AC%E8%A9%A6%EF%BC%9F">為什麼要為 Rails 應用程式編寫測試？</a></li>
 <li>
-<a href="#introduction-to-testing">Introduction to Testing</a>
+<a href="#%E6%B8%AC%E8%A9%A6%E7%B0%A1%E4%BB%8B">測試簡介</a>
 
 <ul>
 <li><a href="#rails-sets-up-for-testing-from-the-word-go">Rails Sets up for Testing from the Word Go</a></li>
@@ -329,7 +329,7 @@
   <div id="container">
     <div class="wrapper">
       <div id="mainCol">
-        <h3 id="why-write-tests-for-your-rails-applications-questionmark"><a class="anchorlink" href="#why-write-tests-for-your-rails-applications-questionmark">1 Why Write Tests for your Rails Applications?</a></h3><p>Rails makes it super easy to write your tests. It starts by producing skeleton test code while you are creating your models and controllers.</p><p>By running your Rails tests you can ensure your code adheres to the desired functionality even after some major code refactoring.</p><p>Rails tests can also simulate browser requests and thus you can test your application's response without having to test it through your browser.</p><h3 id="introduction-to-testing"><a class="anchorlink" href="#introduction-to-testing">2 Introduction to Testing</a></h3><p>Testing support was woven into the Rails fabric from the beginning. It wasn't an "oh! let's bolt on support for running tests because they're new and cool" epiphany.</p><h4 id="rails-sets-up-for-testing-from-the-word-go"><a class="anchorlink" href="#rails-sets-up-for-testing-from-the-word-go">2.1 Rails Sets up for Testing from the Word Go</a></h4><p>Rails creates a <code>test</code> directory for you as soon as you create a Rails project using <code>rails new</code> <em>application_name</em>. If you list the contents of this directory then you shall see:</p><div class="code_container">
+        <h3 id="為什麼要為-rails-應用程式編寫測試？"><a class="anchorlink" href="#%E7%82%BA%E4%BB%80%E9%BA%BC%E8%A6%81%E7%82%BA-rails-%E6%87%89%E7%94%A8%E7%A8%8B%E5%BC%8F%E7%B7%A8%E5%AF%AB%E6%B8%AC%E8%A9%A6%EF%BC%9F">1 為什麼要為 Rails 應用程式編寫測試？</a></h3><p>Rails 使編寫測試變得非常容易。首先，在創建模型和控制器時會產生框架測試程式碼。</p><p>通過運行 Rails 測試，即使在進行了一些主要的程式碼重構之後，也可以確保程式碼符合所需的功能。</p><p>Rails 測試還可以模擬瀏覽器請求，因此您可以測試應用程式的響應，而不必通過瀏覽器進行測試。</p><h3 id="測試簡介"><a class="anchorlink" href="#%E6%B8%AC%E8%A9%A6%E7%B0%A1%E4%BB%8B">2 測試簡介</a></h3><p>從一開始測試就緊密的結合在 Rails 的設計當中。並非是『因為測試新奇又酷，所以讓我們支援測試吧』的想法而誕生的。</p><h4 id="rails-sets-up-for-testing-from-the-word-go"><a class="anchorlink" href="#rails-sets-up-for-testing-from-the-word-go">2.1 Rails Sets up for Testing from the Word Go</a></h4><p>Rails creates a <code>test</code> directory for you as soon as you create a Rails project using <code>rails new</code> <em>application_name</em>. If you list the contents of this directory then you shall see:</p><div class="code_container">
 <pre class="brush: plain; gutter: false; toolbar: false">
 $ ls -F test
 application_system_test_case.rb  controllers/                     helpers/                         mailers/                         system/
@@ -1964,28 +1964,28 @@ assert_equal Date.new(2004, 10, 24), user.activation_date # The change was visib
 <p>Please see <a href="https://api.rubyonrails.org/v6.0.0/classes/ActiveSupport/Testing/TimeHelpers.html"><code>ActiveSupport::Testing::TimeHelpers</code> API Documentation</a>
 for in-depth information about the available time helpers.</p>
 
-        <h3>Feedback</h3>
+        <h3>意見回饋</h3>
         <p>
-          You're encouraged to help improve the quality of this guide.
+          您可以協助提高本指南的品質。
         </p>
         <p>
-          Please contribute if you see any typos or factual errors.
-          To get started, you can read our <a href="https://edgeguides.rubyonrails.org/contributing_to_ruby_on_rails.html#contributing-to-the-rails-documentation">documentation contributions</a> section.
+          如果您發現任何錯別字或事實錯誤，請提出回饋。
+          首先，您可以閱讀我們的 <a href="https://edgeguides.rubyonrails.org/contributing_to_ruby_on_rails.html#contributing-to-the-rails-documentation">Contributing Documentation</a> 部分。
         </p>
         <p>
-          You may also find incomplete content or stuff that is not up to date.
-          Please do add any missing documentation for master. Make sure to check
-          <a href="https://edgeguides.rubyonrails.org">Edge Guides</a> first to verify
-          if the issues are already fixed or not on the master branch.
-          Check the <a href="ruby_on_rails_guides_guidelines.html">Ruby on Rails Guides Guidelines</a>
-          for style and conventions.
+          您可能還會發現內容不完整或不是最新的內容。
+          請為母版添加任何缺少的文檔。確保檢查
+          <a href="https://edgeguides.rubyonrails.org">Edge Guides</a> 首先驗證
+          如果問題已經解決或不在 master 分支上。
+          查看 <a href="ruby_on_rails_guides_guidelines.html">Ruby on Rails Guides Guidelines</a>
+          用於樣式和規則。
         </p>
         <p>
-          If for whatever reason you spot something to fix but cannot patch it yourself, please
-          <a href="https://github.com/rails/rails/issues">open an issue</a>.
+          如果出於任何原因您發現了要修復的東西但自己無法修補，請
+          <a href="https://github.com/rails/rails/issues">提出 issue</a>。
         </p>
-        <p>And last but not least, any kind of discussion regarding Ruby on Rails
-          documentation is very welcome on the <a href="https://groups.google.com/forum/#!forum/rubyonrails-docs">rubyonrails-docs mailing list</a>.
+        <p>最後但並非最不重要的一點是，關於 Ruby on Rails 的任何討論
+          文檔非常歡迎 <a href="https://groups.google.com/forum/#!forum/rubyonrails-docs">rubyonrails-docs mailing list</a>。
         </p>
       </div>
     </div>

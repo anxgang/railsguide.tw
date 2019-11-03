@@ -15,6 +15,8 @@ $ mv zh-TW source/zh-TW
 ## 編輯產生 html
 
 ```sh
+# 開啟中文版 md 目錄
+$ code ../rails/guides/source/zh-TW
 # 執行產生 html 指令
 $ cd ../rails/guides
 $ rake guides:generate:html GUIDES_LANGUAGE=zh-TW RAILS_VERSION=v6.0.0
@@ -27,5 +29,5 @@ $ rm -rf v6.0.0
 $ cp -r ../rails/guides/output/zh-TW/. v6.0.0
 $ git add .
 $ git commit -m "deploy"
-$ git push -f origin master:gh-pages
+$ git push -f origin gh-pages
 ```

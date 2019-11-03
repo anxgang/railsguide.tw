@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Getting Started with Rails — Ruby on Rails Guides</title>
+  <title>Rails 入門 — Ruby on Rails Guides</title>
   <link rel="stylesheet" type="text/css" href="stylesheets/style.css" data-turbolinks-track="reload">
   <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
   <link rel="stylesheet" type="text/css" href="stylesheets/syntaxhighlighter/shCore.css" data-turbolinks-track="reload">
@@ -14,9 +14,9 @@
   <script src="javascripts/turbolinks.js" data-turbolinks-track="reload"></script>
   <script src="javascripts/guides.js" data-turbolinks-track="reload"></script>
   <script src="javascripts/responsive-tables.js" data-turbolinks-track="reload"></script>
-  <meta property="og:title" content="Getting Started with Rails — Ruby on Rails Guides" />
-  <meta name="description" content="Getting Started with RailsThis guide covers getting up and running with Ruby on Rails.After reading this guide, you will know: How to install Rails, create a new Rails application, and connect your application to a database. The general layout of a Rails application. The basic principles of MVC (Model, View, Controller) and RESTful design. How to quickly generate the starting pieces of a Rails application." />
-  <meta property="og:description" content="Getting Started with RailsThis guide covers getting up and running with Ruby on Rails.After reading this guide, you will know: How to install Rails, create a new Rails application, and connect your application to a database. The general layout of a Rails application. The basic principles of MVC (Model, View, Controller) and RESTful design. How to quickly generate the starting pieces of a Rails application." />
+  <meta property="og:title" content="Rails 入門 — Ruby on Rails Guides" />
+  <meta name="description" content="Rails 入門本指南介紹了 Ruby on Rails 的入門和執行方式。閱讀本指南後，您將了解： 如何安裝 Rails，建立新的 Rails 應用程式以及連接您的應用程式到資料庫。 Rails 應用程式的總體佈局。 MVC（模型、視圖、控制器）和 RESTful 設計的基本原理。 如何快速產生 Rails 應用程式的初始部分。" />
+  <meta property="og:description" content="Rails 入門本指南介紹了 Ruby on Rails 的入門和執行方式。閱讀本指南後，您將了解： 如何安裝 Rails，建立新的 Rails 應用程式以及連接您的應用程式到資料庫。 Rails 應用程式的總體佈局。 MVC（模型、視圖、控制器）和 RESTful 設計的基本原理。 如何快速產生 Rails 應用程式的初始部分。" />
   <meta property="og:locale" content="en_US" />
   <meta property="og:site_name" content="Ruby on Rails Guides" />
   <meta property="og:image" content="https://avatars.githubusercontent.com/u/4223" />
@@ -25,16 +25,16 @@
 <body class="guide">
   <div id="topNav">
     <div class="wrapper">
-      <strong class="more-info-label">More at <a href="https://rubyonrails.org/">rubyonrails.org:</a> </strong>
+      <strong class="more-info-label">更多內容 <a href="https://rubyonrails.org/">rubyonrails.org:</a> </strong>
       <span class="red-button more-info-button">
-        More Ruby on Rails
+        更多內容 Ruby on Rails
       </span>
       <ul class="more-info-links s-hidden">
         <li class="more-info"><a href="https://weblog.rubyonrails.org/">Blog</a></li>
-        <li class="more-info"><a href="https://guides.rubyonrails.org/">Guides</a></li>
+        <li class="more-info"><a href="https://guides.rubyonrails.org/">指南</a></li>
         <li class="more-info"><a href="https://api.rubyonrails.org/">API</a></li>
-        <li class="more-info"><a href="https://stackoverflow.com/questions/tagged/ruby-on-rails">Ask for help</a></li>
-        <li class="more-info"><a href="https://github.com/rails/rails">Contribute on GitHub</a></li>
+        <li class="more-info"><a href="https://stackoverflow.com/questions/tagged/ruby-on-rails">尋求協助</a></li>
+        <li class="more-info"><a href="https://github.com/rails/rails">貢獻</a></li>
       </ul>
     </div>
   </div>
@@ -42,18 +42,18 @@
     <div class="wrapper clearfix">
       <h1><a href="index.html" title="Return to home page">Guides.rubyonrails.org</a></h1>
       <ul class="nav">
-        <li><a class="nav-item" href="index.html">Home</a></li>
+        <li><a class="nav-item" href="index.html">首頁</a></li>
         <li class="guides-index guides-index-large">
-          <a href="index.html" id="guidesMenu" class="guides-index-item nav-item">Guides Index</a>
+          <a href="index.html" id="guidesMenu" class="guides-index-item nav-item">指南目錄</a>
           <div id="guides" class="clearfix" style="display: none;">
             <hr />
             <div class="guides-section-container">
                 <div class="guides-section">
-                  <dt>起步走</dt>
+                  <dt>入門</dt>
                   <dd><a href="getting_started.html">Rails 入門</a></dd>
                 </div>
                 <div class="guides-section">
-                  <dt>Models</dt>
+                  <dt>模型 (Models)</dt>
                   <dd><a href="active_record_basics.html">Active Record 基礎 (Basics)</a></dd>
                   <dd><a href="active_record_migrations.html">Active Record 遷移 (Migrations)</a></dd>
                   <dd><a href="active_record_validations.html">Active Record 驗證 (Validations)</a></dd>
@@ -62,12 +62,12 @@
                   <dd><a href="active_record_querying.html">Active Record 查詢 (Query Interface)</a></dd>
                 </div>
                 <div class="guides-section">
-                  <dt>Views</dt>
+                  <dt>視圖 (Views)</dt>
                   <dd><a href="layouts_and_rendering.html">Layouts and Rendering in Rails</a></dd>
                   <dd><a href="form_helpers.html">Action View Form Helpers</a></dd>
                 </div>
                 <div class="guides-section">
-                  <dt>Controllers</dt>
+                  <dt>控制器 (Controllers)</dt>
                   <dd><a href="action_controller_overview.html">Action Controller 概述</a></dd>
                   <dd><a href="routing.html">Rails 路由：深入淺出</a></dd>
                 </div>
@@ -110,7 +110,7 @@
                   <dd><a href="maintenance_policy.html">Maintenance Policy</a></dd>
                 </div>
                 <div class="guides-section">
-                  <dt>Release Notes</dt>
+                  <dt>版本紀錄</dt>
                   <dd><a href="upgrading_ruby_on_rails.html">Upgrading Ruby on Rails</a></dd>
                   <dd><a href="6_0_release_notes.html">Version 6.0 - August 2019</a></dd>
                   <dd><a href="5_2_release_notes.html">Version 5.2 - April 2018</a></dd>
@@ -128,14 +128,14 @@
             </div>
           </div>
         </li>
-        <li><a class="nav-item" href="contributing_to_ruby_on_rails.html">Contribute</a></li>
+        <li><a class="nav-item" href="contributing_to_ruby_on_rails.html">貢獻</a></li>
         <li class="guides-index guides-index-small">
           <select class="guides-index-item nav-item">
-            <option value="index.html">Guides Index</option>
-              <optgroup label="起步走">
+            <option value="index.html">指南目錄</option>
+              <optgroup label="入門">
                   <option value="getting_started.html">Rails 入門</option>
               </optgroup>
-              <optgroup label="Models">
+              <optgroup label="模型 (Models)">
                   <option value="active_record_basics.html">Active Record 基礎 (Basics)</option>
                   <option value="active_record_migrations.html">Active Record 遷移 (Migrations)</option>
                   <option value="active_record_validations.html">Active Record 驗證 (Validations)</option>
@@ -143,11 +143,11 @@
                   <option value="association_basics.html">Active Record 關聯 (Associations)</option>
                   <option value="active_record_querying.html">Active Record 查詢 (Query Interface)</option>
               </optgroup>
-              <optgroup label="Views">
+              <optgroup label="視圖 (Views)">
                   <option value="layouts_and_rendering.html">Layouts and Rendering in Rails</option>
                   <option value="form_helpers.html">Action View Form Helpers</option>
               </optgroup>
-              <optgroup label="Controllers">
+              <optgroup label="控制器 (Controllers)">
                   <option value="action_controller_overview.html">Action Controller 概述</option>
                   <option value="routing.html">Rails 路由：深入淺出</option>
               </optgroup>
@@ -184,7 +184,7 @@
               <optgroup label="Policies">
                   <option value="maintenance_policy.html">Maintenance Policy</option>
               </optgroup>
-              <optgroup label="Release Notes">
+              <optgroup label="版本紀錄">
                   <option value="upgrading_ruby_on_rails.html">Upgrading Ruby on Rails</option>
                   <option value="6_0_release_notes.html">Version 6.0 - August 2019</option>
                   <option value="5_2_release_notes.html">Version 5.2 - April 2018</option>
@@ -208,34 +208,33 @@
 
   <div id="feature">
     <div class="wrapper">
-      <h2>Getting Started with Rails</h2><p>This guide covers getting up and running with Ruby on Rails.</p><p>After reading this guide, you will know:</p>
+      <h2>Rails 入門</h2><p>本指南介紹了 Ruby on Rails 的入門和執行方式。</p><p>閱讀本指南後，您將了解：</p>
 <ul>
-<li>How to install Rails, create a new Rails application, and connect your
-application to a database.</li>
-<li>The general layout of a Rails application.</li>
-<li>The basic principles of MVC (Model, View, Controller) and RESTful design.</li>
-<li>How to quickly generate the starting pieces of a Rails application.</li>
+<li>如何安裝 Rails，建立新的 Rails 應用程式以及連接您的應用程式到資料庫。</li>
+<li>Rails 應用程式的總體佈局。</li>
+<li>MVC（模型、視圖、控制器）和 RESTful 設計的基本原理。</li>
+<li>如何快速產生 Rails 應用程式的初始部分。</li>
 </ul>
 
 
                 <div id="subCol">
             <h3 class="chapter"><img src="images/chapters_icon.gif" alt="" />Chapters</h3>
             <ol class="chapters">
-<li><a href="#guide-assumptions">Guide Assumptions</a></li>
-<li><a href="#what-is-rails-questionmark">What is Rails?</a></li>
+<li><a href="#%E6%8C%87%E5%8D%97%E5%81%87%E8%A8%AD">指南假設</a></li>
+<li><a href="#rails-%E6%98%AF%E4%BB%80%E9%BA%BC%EF%BC%9F">Rails 是什麼？</a></li>
 <li>
-<a href="#creating-a-new-rails-project">Creating a New Rails Project</a>
+<a href="#%E5%BB%BA%E7%AB%8B%E4%B8%80%E5%80%8B%E6%96%B0%E7%9A%84-rails-%E5%B0%88%E6%A1%88">建立一個新的 Rails 專案</a>
 
 <ul>
-<li><a href="#installing-rails">Installing Rails</a></li>
-<li><a href="#creating-the-blog-application">Creating the Blog Application</a></li>
+<li><a href="#%E5%AE%89%E8%A3%9D-rails">安裝 Rails</a></li>
+<li><a href="#%E5%BB%BA%E7%AB%8B%E4%B8%80%E5%80%8B-blog-%E6%87%89%E7%94%A8%E7%A8%8B%E5%BC%8F">建立一個 Blog 應用程式</a></li>
 </ul>
 </li>
 <li>
-<a href="#hello-rails-bang">Hello, Rails!</a>
+<a href="#%E5%93%88%E5%9B%89%EF%BC%8C-rails-%EF%BC%81">哈囉， Rails ！</a>
 
 <ul>
-<li><a href="#starting-up-the-web-server">Starting up the Web Server</a></li>
+<li><a href="#%E5%95%9F%E5%8B%95-web-%E4%BC%BA%E6%9C%8D%E5%99%A8">啟動 Web 伺服器</a></li>
 <li><a href="#say-hello-rails">Say "Hello", Rails</a></li>
 <li><a href="#setting-the-application-home-page">Setting the Application Home Page</a></li>
 </ul>
@@ -304,212 +303,162 @@ application to a database.</li>
   <div id="container">
     <div class="wrapper">
       <div id="mainCol">
-        <h3 id="guide-assumptions"><a class="anchorlink" href="#guide-assumptions">1 Guide Assumptions</a></h3><p>This guide is designed for beginners who want to get started with a Rails
-application from scratch. It does not assume that you have any prior experience
-with Rails.</p><p>Rails is a web application framework running on the Ruby programming language.
-If you have no prior experience with Ruby, you will find a very steep learning
-curve diving straight into Rails. There are several curated lists of online resources
-for learning Ruby:</p>
+        <h3 id="指南假設"><a class="anchorlink" href="#%E6%8C%87%E5%8D%97%E5%81%87%E8%A8%AD">1 指南假設</a></h3><p>本文是為了想從頭學 Rails 的初學者所撰寫，無需具備任何 Rails 的開發經驗。</p><p>Rails 是一個使用 Ruby 程式語言所撰寫的 Web 開發框架。
+如果您以前並沒有使用 Ruby 的經驗，那麼直接學習 Rails 的您會發現學習曲線非常陡峭。
+這裡提供幾個 Ruby 線上學習資源：</p>
 <ul>
 <li><a href="https://www.ruby-lang.org/en/documentation/">Official Ruby Programming Language website</a></li>
 <li><a href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#ruby">List of Free Programming Books</a></li>
 </ul>
-<p>Be aware that some resources, while still excellent, cover versions of Ruby as old as
-1.6, and commonly 1.8, and will not include some syntax that you will see in day-to-day
-development with Rails.</p><h3 id="what-is-rails-questionmark"><a class="anchorlink" href="#what-is-rails-questionmark">2 What is Rails?</a></h3><p>Rails is a web application development framework written in the Ruby programming language.
-It is designed to make programming web applications easier by making assumptions
-about what every developer needs to get started. It allows you to write less
-code while accomplishing more than many other languages and frameworks.
-Experienced Rails developers also report that it makes web application
-development more fun.</p><p>Rails is opinionated software. It makes the assumption that there is a "best"
-way to do things, and it's designed to encourage that way - and in some cases to
-discourage alternatives. If you learn "The Rails Way" you'll probably discover a
-tremendous increase in productivity. If you persist in bringing old habits from
-other languages to your Rails development, and trying to use patterns you
-learned elsewhere, you may have a less happy experience.</p><p>The Rails philosophy includes two major guiding principles:</p>
+<p>請注意有些線上資源雖然很好，但是它們可能是針對 Ruby 1.8 版或更舊的 1.6 版而寫，沒有涵蓋 Rails 一些新的語法。</p><h3 id="rails-是什麼？"><a class="anchorlink" href="#rails-%E6%98%AF%E4%BB%80%E9%BA%BC%EF%BC%9F">2 Rails 是什麼？</a></h3><p>Rails 是一個用 Ruby 所寫的 Web 開發框架。
+這個框架把開發過程的細節的都設想周到，讓開發 Web 應用程式變成一件簡單的事情。與其他程式語言或開發框架比較的話，它可以讓你用更簡短的程式碼來實現相同或更完整的功能。
+多數資深的 Rails 開發者認為 Rails 可以使開發 Web 應用程式變的更加有趣。</p><p>Rails 是一個有先見之明的軟體。
+當事情有最好的處理方法，他的設計會傾向讓你去使用這個方法，而不是花很多時間去找尋跟嘗試。
+如果您學完 “The Rails Way” 之後，那你的開發效率將會進展到另一個境界。
+但有個前提就是你不能堅持把其他程式語言的開發習慣或思維帶到 Rails 中，否則一開始就會對 Rails 有不好的印象。</p><p>在 Rails 開發哲學中有著兩個主要的原則：</p>
 <ul>
 <li>
-<strong>Don't Repeat Yourself:</strong> DRY is a principle of software development which
-states that "Every piece of knowledge must have a single, unambiguous, authoritative
-representation within a system." By not writing the same information over and over
-again, our code is more maintainable, more extensible, and less buggy.</li>
+<strong>不要重複你自己(Don't Repeat Yourself)：</strong> DRY 是一個軟體工程的開發原則，“系統中每個功能的構思都必須要有單一、明確且讓人認同的表達方式”儘量避免一再重複的相同資訊，所寫的程式才容易維護、有擴展性且不容易出現 Bug。</li>
 <li>
-<strong>Convention Over Configuration:</strong> Rails has opinions about the best way to do many
-things in a web application, and defaults to this set of conventions, rather than
-require that you specify minutiae through endless configuration files.</li>
+<strong>約定優於配置(Convention Over Configuration)：</strong> Rails 不希望你浪費太多時間無止境的配置設定上，而是直接把最好的一些 Web 開發方式設為預設值，讓你熟悉之後就可以上手了。</li>
 </ul>
-<h3 id="creating-a-new-rails-project"><a class="anchorlink" href="#creating-a-new-rails-project">3 Creating a New Rails Project</a></h3><p>The best way to read this guide is to follow it step by step. All steps are
-essential to run this example application and no additional code or steps are
-needed.</p><p>By following along with this guide, you'll create a Rails project called
-<code>blog</code>, a (very) simple weblog. Before you can start building the application,
-you need to make sure that you have Rails itself installed.</p><div class="info"><p>The examples below use <code>$</code> to represent your terminal prompt in a UNIX-like OS,
-though it may have been customized to appear differently. If you are using Windows,
-your prompt will look something like <code>c:\source_code&gt;</code></p></div><h4 id="installing-rails"><a class="anchorlink" href="#installing-rails">3.1 Installing Rails</a></h4><p>Before you install Rails, you should check to make sure that your system has the
-proper prerequisites installed. These include Ruby and SQLite3.</p><p>Open up a command line prompt. On macOS open Terminal.app, on Windows choose
-"Run" from your Start menu and type 'cmd.exe'. Any commands prefaced with a
-dollar sign <code>$</code> should be run in the command line. Verify that you have a
-current version of Ruby installed:</p><div class="code_container">
+<h3 id="建立一個新的-rails-專案"><a class="anchorlink" href="#%E5%BB%BA%E7%AB%8B%E4%B8%80%E5%80%8B%E6%96%B0%E7%9A%84-rails-%E5%B0%88%E6%A1%88">3 建立一個新的 Rails 專案</a></h3><p>閱讀這篇教學，最佳的方法是照著每個步驟走，本篇教學沒有遺漏任何程式片段或步驟，所以你可以完全跟著教學一步一步來。</p><p>一開始我們會建立一個取名為 <code>blog</code> 的 Rails 專案，以一個簡易的網誌作為學習範例。不過在這之前，你要先確定是否已經裝了 Rails。</p><div class="info"><p>本文的範例中會用 <code>$</code> 來表示類 Unix 系統的命令提示字元，但實際上顯示可能因客制化而不同。如果你是 Windows 的使用者，那命令提示字元會類似於 <code>c:\source_code&gt;</code>。</p></div><h4 id="安裝-rails"><a class="anchorlink" href="#%E5%AE%89%E8%A3%9D-rails">3.1 安裝 Rails</a></h4><p>在安裝 Rails 之前，您應該確保系統具有安裝的必要條件。像是已安裝好了 Ruby 及 SQLite3。</p><p>首先打開命令列。 在 Mac OS X 底下請打開 Terminal.app ，如果是在 Windows 下請在開始功能表選擇 “執行” 並且輸入 cmd.exe 後開啟命令視窗。 只要是錢號 <code>$</code> 開頭的命令，都是在命令列上執行。現在就用命令檢查，是否已安裝最新的 Ruby 版本：</p><div class="code_container">
 <pre class="brush: plain; gutter: false; toolbar: false">
 $ ruby -v
 ruby 2.5.0
 
 </pre>
 </div>
-<p>Rails requires Ruby version 2.5.0 or later. If the version number returned is
-less than that number, you'll need to install a fresh copy of Ruby.</p><div class="info"><p>To quickly install Ruby and Ruby on Rails on your system in Windows, you can use
-<a href="http://railsinstaller.org">Rails Installer</a>. For more installation methods for most
-Operating Systems take a look at <a href="https://www.ruby-lang.org/en/documentation/installation/">ruby-lang.org</a>.</p></div><p>If you are working on Windows, you should also install the
-<a href="https://rubyinstaller.org/downloads/">Ruby Installer Development Kit</a>.</p><p>You will also need an installation of the SQLite3 database.
-Many popular UNIX-like OSes ship with an acceptable version of SQLite3.
-On Windows, if you installed Rails through Rails Installer, you
-already have SQLite installed. Others can find installation instructions
-at the <a href="https://www.sqlite.org">SQLite3 website</a>.
-Verify that it is correctly installed and in your PATH:</p><div class="code_container">
+<p>Rails 需要安裝 Ruby 2.5.0 以上的版本。 如果顯示的版本號較低，那就必須另外安裝 Ruby 的新版本。</p><div class="info"><p>若您是 Windows 的使用者，可以使用 <a href="http://railsinstaller.org">Rails Installer</a> 快速安裝 Ruby 和 Ruby on Rails。 其他作業系統安裝方式請參考 <a href="https://www.ruby-lang.org/en/documentation/installation/">ruby-lang.org</a>.</p></div><p>如果您使用的是 Windows，則還應安裝 <a href="https://rubyinstaller.org/downloads/">Ruby Installer Development Kit</a>。</p><p>您也需要安裝 SQLite3 資料庫。
+許多流行的 類UNIX 的操作系統都附帶了可接受的 SQLite3 版本。
+在 Windows 中，如果您已經透過了 Rails Installer 安裝 Rails，那麼您也已經安裝好 SQLite3 了。
+其他作業系統的安裝指令，則可以在 <a href="https://www.sqlite.org">SQLite3 website</a> 找到。
+現在來檢查是否有正確安裝並正確新增到 PATH 環境變數中：</p><div class="code_container">
 <pre class="brush: plain; gutter: false; toolbar: false">
 $ sqlite3 --version
 
 </pre>
 </div>
-<p>The program should report its version.</p><p>To install Rails, use the <code>gem install</code> command provided by RubyGems:</p><div class="code_container">
+<p>命令列會顯示 SQLite 的版本資訊。</p><p>接下來使用 RubyGems 提供的命令 <code>gem install</code> 來安裝 Rails：</p><div class="code_container">
 <pre class="brush: plain; gutter: false; toolbar: false">
 $ gem install rails
 
 </pre>
 </div>
-<p>To verify that you have everything installed correctly, you should be able to
-run the following:</p><div class="code_container">
+<p>如果不確定 Rails 是否有正確安裝的話，請輸入以下命令做確認：</p><div class="code_container">
 <pre class="brush: plain; gutter: false; toolbar: false">
 $ rails --version
 
 </pre>
 </div>
-<p>If it says something like "Rails 6.0.0", you are ready to continue.</p><h4 id="creating-the-blog-application"><a class="anchorlink" href="#creating-the-blog-application">3.2 Creating the Blog Application</a></h4><p>Rails comes with a number of scripts called generators that are designed to make
-your development life easier by creating everything that's necessary to start
-working on a particular task. One of these is the new application generator,
-which will provide you with the foundation of a fresh Rails application so that
-you don't have to write it yourself.</p><p>To use this generator, open a terminal, navigate to a directory where you have
-rights to create files, and type:</p><div class="code_container">
+<p>如果有看到 “Rails 6.0.0” 的訊息，那你可以繼續接下來的步驟。</p><h4 id="建立一個-blog-應用程式"><a class="anchorlink" href="#%E5%BB%BA%E7%AB%8B%E4%B8%80%E5%80%8B-blog-%E6%87%89%E7%94%A8%E7%A8%8B%E5%BC%8F">3.2 建立一個 Blog 應用程式</a></h4><p>Rails 中有許多被稱之為產生器 (generators) 的腳本 (scripts)，
+主要用來產生開發所需要的檔案及工具，讓開發可以更加順手。
+而現在要用的其中一種產生器就是可以幫助我們建構出一個新的 Rails 應用程式，如此一來就不用再花時間重頭寫起。</p><p>要使用產生器之前，請先打開命令提示視窗，切換到有存取權限的目錄接著輸入：</p><div class="code_container">
 <pre class="brush: plain; gutter: false; toolbar: false">
 $ rails new blog
 
 </pre>
 </div>
-<p>This will create a Rails application called Blog in a <code>blog</code> directory and
-install the gem dependencies that are already mentioned in <code>Gemfile</code> using
-<code>bundle install</code>.</p><div class="note"><p>If you're using Windows Subsystem for Linux then there are currently some
-limitations on file system notifications that mean you should disable the <code>spring</code>
-and <code>listen</code> gems which you can do by running <code>rails new blog --skip-spring --skip-listen</code>.</p></div><div class="info"><p>You can see all of the command line options that the Rails application
-builder accepts by running <code>rails new -h</code>.</p></div><p>After you create the blog application, switch to its folder:</p><div class="code_container">
+<p>執行完後會在 <code>blog</code> 目錄下建立一個名為 Blog 的 Rails 應用程式，而執行過程中會透過 <code>bundle install</code> 命令安裝 <code>Gemfile</code> 上所列出的相依的 Gem。</p><div class="note"><p>如果您使用的是 Windows Subsystem for Linux，那麼可能會有一些系統限制，您應該禁用 <code>spring</code> 和 <code>listen</code> gem，您可以透過執行 <code>rails new blog --skip-spring --skip-listen</code> 來完成。</p></div><div class="info"><p>您可以透過執行 <code>rails new -h</code> 指令，來查看所有新增 Rails 應用程式的指令。</p></div><p>在建立 Blog 應用程式後，切換到其文件夾：</p><div class="code_container">
 <pre class="brush: plain; gutter: false; toolbar: false">
 $ cd blog
 
 </pre>
 </div>
-<p>The <code>blog</code> directory has a number of auto-generated files and folders that make
-up the structure of a Rails application. Most of the work in this tutorial will
-happen in the <code>app</code> folder, but here's a basic rundown on the function of each
-of the files and folders that Rails created by default:</p>
+<p>在 <code>blog</code> 這個目錄中有許多自動產生的檔案和資料夾，這些是構成 Rails 應用程式的重要元素。
+本篇教學中，大部份會著重在 <code>app</code> 這個資料夾，話雖如此，這裡還是附上一張表，將所有預設的檔案及資料夾的功能做個簡單介紹：</p>
 <table>
 <thead>
 <tr>
-<th>File/Folder</th>
-<th>Purpose</th>
+<th>檔案／資料夾</th>
+<th>用途</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>app/</td>
-<td>Contains the controllers, models, views, helpers, mailers, channels, jobs, and assets for your application. You'll focus on this folder for the remainder of this guide.</td>
+<td>包含著應用程式的controllers、models、views、helpers、mailers、channels、jobs 以及 assets 等。 接下來的教學中，你將會花多數的心力在這個資料夾上。</td>
 </tr>
 <tr>
 <td>bin/</td>
-<td>Contains the rails script that starts your app and can contain other scripts you use to setup, update, deploy, or run your application.</td>
+<td>包含著一開始用來建構應用程式的 rails 腳本、環境的設定檔以及用來執行和部署應用程式的腳本。</td>
 </tr>
 <tr>
 <td>config/</td>
-<td>Configure your application's routes, database, and more. This is covered in more detail in <a href="configuring.html">Configuring Rails Applications</a>.</td>
+<td>設定應用程式的路由、資料庫、以及其他等等。 詳細請參考： <a href="configuring.html">Rails 應用程式設定</a>.</td>
 </tr>
 <tr>
 <td>config.ru</td>
-<td>Rack configuration for Rack based servers used to start the application. For more information about Rack, see the <a href="https://rack.github.io/">Rack website</a>.</td>
+<td>Rack 的設定檔，它被用來啟動應用程式。 詳細請參考： <a href="https://rack.github.io/">Rack 的網站</a>.</td>
 </tr>
 <tr>
 <td>db/</td>
-<td>Contains your current database schema, as well as the database migrations.</td>
+<td>包含資料庫的綱要檔案 (schema)，以及遷移檔案 (migrations)。</td>
 </tr>
 <tr>
 <td>Gemfile<br>Gemfile.lock</td>
-<td>These files allow you to specify what gem dependencies are needed for your Rails application. These files are used by the Bundler gem. For more information about Bundler, see the <a href="https://bundler.io">Bundler website</a>.</td>
+<td>這兩個檔案可以指定 Rails application 所要安裝的 gem 相依套件，並且交由 Bundler gem 做管理。更多關於 Bundler 的資訊請看 <a href="https://bundler.io">Bundler 的網站</a>.</td>
 </tr>
 <tr>
 <td>lib/</td>
-<td>Extended modules for your application.</td>
+<td>應用程式的擴充模組。</td>
 </tr>
 <tr>
 <td>log/</td>
-<td>Application log files.</td>
+<td>應用程式的記錄檔案。</td>
 </tr>
 <tr>
 <td>package.json</td>
-<td>This file allows you to specify what npm dependencies are needed for your Rails application. This file is used by Yarn. For more information about Yarn, see the <a href="https://yarnpkg.com/lang/en/">Yarn website</a>.</td>
+<td>這檔案可以指定 Rails application 所要安裝的 npm 相依套件。 並交由 Yarn 做管理。更多關於 Yarn 的資訊請參考 <a href="https://yarnpkg.com/">Yarn 的網站</a>.</td>
 </tr>
 <tr>
 <td>public/</td>
-<td>The only folder seen by the world as-is. Contains static files and compiled assets.</td>
+<td>唯一對外開放的目錄，裡面包含著靜態檔案和編譯過後的 Assets。</td>
 </tr>
 <tr>
 <td>Rakefile</td>
-<td>This file locates and loads tasks that can be run from the command line. The task definitions are defined throughout the components of Rails. Rather than changing <code>Rakefile</code>, you should add your own tasks by adding files to the <code>lib/tasks</code> directory of your application.</td>
+<td>Rakefile 主要目的是找到並載入可從命令列執行的任務。其中內建任務是定義在各個 Rails 元件當中。若想新增自己寫的任務，不要直接修改 <code>Rakefile</code>，把自訂的任務新增到 <code>lib/tasks</code> 目錄下。</td>
 </tr>
 <tr>
 <td>README.md</td>
-<td>This is a brief instruction manual for your application. You should edit this file to tell others what your application does, how to set it up, and so on.</td>
+<td>這是一份應用程式的操作手冊。你可以編輯這個檔案來告訴別人你的應用程式的功能，以及如何安裝配置等等。</td>
 </tr>
 <tr>
 <td>storage/</td>
-<td>Active Storage files for Disk Service. This is covered in <a href="active_storage_overview.html">Active Storage Overview</a>.</td>
+<td>這是 Active Storage 設定為 Disk 服務時，存放檔案的位置。 詳見 <a href="active_storage_overview.html">Active Storage 概述</a>。</td>
 </tr>
 <tr>
 <td>test/</td>
-<td>Unit tests, fixtures, and other test apparatus. These are covered in <a href="testing.html">Testing Rails Applications</a>.</td>
+<td>包含單元測試、假資料、還有其他的測試工具。詳細請參考<a href="testing.html">Rails 應用程式測試</a>。</td>
 </tr>
 <tr>
 <td>tmp/</td>
-<td>Temporary files (like cache and pid files).</td>
+<td>暫存檔（像是快取、PID 等暫存檔案）。</td>
 </tr>
 <tr>
 <td>vendor/</td>
-<td>A place for all third-party code. In a typical Rails application this includes vendored gems.</td>
+<td>主要放置第三方的程式碼。通常 Rails 應用程式會在這放置第三方的 Gem 套件。</td>
 </tr>
 <tr>
 <td>.gitignore</td>
-<td>This file tells git which files (or patterns) it should ignore. See <a href="https://help.github.com/articles/ignoring-files">GitHub - Ignoring files</a> for more info about ignoring files.</td>
+<td>這個檔案可以設定 git 哪些文件（或規則）不需要列入版本控制之內。 請見 <a href="https://help.github.com/articles/ignoring-files">GitHub - 忽略檔案</a> 查看更多關於忽略檔案的訊息。</td>
 </tr>
 <tr>
 <td>.ruby-version</td>
-<td>This file contains the default Ruby version.</td>
+<td>這個檔案紀錄預設的 ruby 的版本號</td>
 </tr>
 </tbody>
 </table>
-<h3 id="hello-rails-bang"><a class="anchorlink" href="#hello-rails-bang">4 Hello, Rails!</a></h3><p>To begin with, let's get some text up on screen quickly. To do this, you need to
-get your Rails application server running.</p><h4 id="starting-up-the-web-server"><a class="anchorlink" href="#starting-up-the-web-server">4.1 Starting up the Web Server</a></h4><p>You actually have a functional Rails application already. To see it, you need to
-start a web server on your development machine. You can do this by running the
-following in the <code>blog</code> directory:</p><div class="code_container">
+<h3 id="哈囉，-rails-！"><a class="anchorlink" href="#%E5%93%88%E5%9B%89%EF%BC%8C-rails-%EF%BC%81">4 哈囉， Rails ！</a></h3><p>一開始，如果希望畫面有些簡單的文字輸出。先啟動 Rails 伺服器。</p><h4 id="啟動-web-伺服器"><a class="anchorlink" href="#%E5%95%9F%E5%8B%95-web-%E4%BC%BA%E6%9C%8D%E5%99%A8">4.1 啟動 Web 伺服器</a></h4><p>事實上， Rails 應用程式已經可以用了。如果想看執行結果，那必須先啟動 web 伺服器，請在 <code>blog</code> 目錄輸入以下的命令：</p><div class="code_container">
 <pre class="brush: plain; gutter: false; toolbar: false">
 $ rails server
 
 </pre>
 </div>
-<div class="info"><p>If you are using Windows, you have to pass the scripts under the <code>bin</code>
-folder directly to the Ruby interpreter e.g. <code>ruby bin\rails server</code>.</p></div><div class="info"><p>JavaScript asset compression requires you
-have a JavaScript runtime available on your system, in the absence
-of a runtime you will see an <code>execjs</code> error during asset compilation.
-Usually macOS and Windows come with a JavaScript runtime installed.
-<code>therubyrhino</code> is the recommended runtime for JRuby users and is added by
-default to the <code>Gemfile</code> in apps generated under JRuby. You can investigate
-all the supported runtimes at <a href="https://github.com/rails/execjs#readme">ExecJS</a>.</p></div><p>This will fire up Puma, a web server distributed with Rails by default. To see
-your application in action, open a browser window and navigate to
-<a href="http://localhost:3000">http://localhost:3000</a>. You should see the Rails default information page:</p><p><img src="images/getting_started/rails_welcome.png" alt="Yay! You're on Rails! screenshot"></p><div class="info"><p>To stop the web server, hit Ctrl+C in the terminal window where it's
+<div class="info"><p>如果您使用 Windows, 您可能需要透過 Ruby 直譯在 <code>bin</code> 目錄之下的腳本，例如： <code>ruby bin\rails server</code>.</p></div><div class="info"><p>您的系統必需擁有 JavaScript runtime 才能處理資產壓縮（asset compression），若沒有的話，在資產壓縮期間您會看到 <code>execjs</code> 的錯誤訊息。
+通常在 macOS 和 Windows 作業系統中，已經安裝好了 JavaScript runtime。
+<code>therubyrhino</code> 是一個推薦的 JRuby 解譯器，他已經被預設寫入 <code>Gemfile</code> 之中。您可以由此查看所有支援的 runtime <a href="https://github.com/rails/execjs#readme">ExecJS</a>.</p></div><p>這將會啟動 Puma, 即 Rails 預設使用的分散式網頁伺服器。 想看應用程式執行中的畫面，請打開瀏覽器並在網址列上輸入
+<a href="http://localhost:3000">http://localhost:3000</a>，便會看到 Rails 的預設頁面：</p><p><img src="images/getting_started/rails_welcome.png" alt="Yay! You're on Rails! screenshot"></p><div class="info"><p>To stop the web server, hit Ctrl+C in the terminal window where it's
 running. To verify the server has stopped you should see your command prompt
 cursor again. For most UNIX-like systems including macOS this will be a
 dollar sign <code>$</code>. In development mode, Rails does not generally require you to
@@ -2090,28 +2039,28 @@ the database. If possible, use UTF-8 as the internal storage of your database.</
 </ul>
 
 
-        <h3>Feedback</h3>
+        <h3>意見回饋</h3>
         <p>
-          You're encouraged to help improve the quality of this guide.
+          您可以協助提高本指南的品質。
         </p>
         <p>
-          Please contribute if you see any typos or factual errors.
-          To get started, you can read our <a href="https://edgeguides.rubyonrails.org/contributing_to_ruby_on_rails.html#contributing-to-the-rails-documentation">documentation contributions</a> section.
+          如果您發現任何錯別字或事實錯誤，請提出回饋。
+          首先，您可以閱讀我們的 <a href="https://edgeguides.rubyonrails.org/contributing_to_ruby_on_rails.html#contributing-to-the-rails-documentation">Contributing Documentation</a> 部分。
         </p>
         <p>
-          You may also find incomplete content or stuff that is not up to date.
-          Please do add any missing documentation for master. Make sure to check
-          <a href="https://edgeguides.rubyonrails.org">Edge Guides</a> first to verify
-          if the issues are already fixed or not on the master branch.
-          Check the <a href="ruby_on_rails_guides_guidelines.html">Ruby on Rails Guides Guidelines</a>
-          for style and conventions.
+          您可能還會發現內容不完整或不是最新的內容。
+          請為母版添加任何缺少的文檔。確保檢查
+          <a href="https://edgeguides.rubyonrails.org">Edge Guides</a> 首先驗證
+          如果問題已經解決或不在 master 分支上。
+          查看 <a href="ruby_on_rails_guides_guidelines.html">Ruby on Rails Guides Guidelines</a>
+          用於樣式和規則。
         </p>
         <p>
-          If for whatever reason you spot something to fix but cannot patch it yourself, please
-          <a href="https://github.com/rails/rails/issues">open an issue</a>.
+          如果出於任何原因您發現了要修復的東西但自己無法修補，請
+          <a href="https://github.com/rails/rails/issues">提出 issue</a>。
         </p>
-        <p>And last but not least, any kind of discussion regarding Ruby on Rails
-          documentation is very welcome on the <a href="https://groups.google.com/forum/#!forum/rubyonrails-docs">rubyonrails-docs mailing list</a>.
+        <p>最後但並非最不重要的一點是，關於 Ruby on Rails 的任何討論
+          文檔非常歡迎 <a href="https://groups.google.com/forum/#!forum/rubyonrails-docs">rubyonrails-docs mailing list</a>。
         </p>
       </div>
     </div>
